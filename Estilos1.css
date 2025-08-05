@@ -1,0 +1,119 @@
+.contenido-pagina {
+  padding: 60px;
+  background-color: #f3d0d0;
+  color: #333;
+}
+body {
+  background: linear-gradient(to bottom right, #f9f9ff, #fceefc);
+}
+
+.titulo {
+  font-size: 2.2em;
+  color: #ffffff;
+  background-color: #f8d745; /* púrpura elegante */
+  padding: 15px 25px;
+  border-radius: 20px;
+  width: fit-content;
+  margin: 0 auto 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Sección de inicio */
+.inicio-emprendimiento {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 20px;
+}
+
+.img-emprendimiento {
+  width: 300px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.texto-emprendimiento {
+  max-width: 500px;
+  font-size: 1.1em;
+  line-height: 1.6;
+  background-color: #ffffffd0;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.subtitulo {
+  font-size: 1.8em;
+  color: #ffffff;
+  background-color: #89ffff; /* azul elegante */
+  padding: 10px 20px;
+  border-radius: 15px;
+  width: fit-content;
+  margin: 0 auto 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.galeria-preparacion {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.cuadro-preparacion {
+  width: 260px;
+  background: linear-gradient(135deg, #e8daef, #f9ebff);
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cuadro-preparacion:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+}
+
+.cuadro-preparacion img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.cuadro-preparacion p {
+  font-size: 1em;
+  color: #4a235a;
+  font-weight: 500;
+}
+ /* Galería de imágenes */
+ .galeria-imagenes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px;
+}
+
+.galeria-imagenes img {
+  width: 220px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.galeria-imagenes img:hover {
+  transform: scale(1.05);
+}
+video {
+  width: 20%;
+  border-radius: 3px;
+}

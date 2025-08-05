@@ -1,0 +1,86 @@
+/* Fondo pastel suave */
+body {
+    background: linear-gradient(to bottom right, #d7bde2, #aed6f1);
+  }
+  
+  /* Título principal */
+  .titulo {
+    font-size: 2.2em;
+    background-color: #deaaf3;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 30px auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  /* Subtítulo */
+  .subtitulo {
+    font-size: 1.8em;
+    background-color: #2980b9;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 15px;
+    width: fit-content;
+    margin: 40px auto 20px;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+  }
+  
+  /* Sección de inicio */
+  .inicio-emprendimiento {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 20px;
+  }
+  
+  .img-emprendimiento {
+    width: 500px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  }
+  
+  .texto-emprendimiento {
+    max-width: 500px;
+    font-size: 1.1em;
+    line-height: 1.6;
+    background-color: #ffffffd0;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
+  /* Galería de imágenes */
+  .galeria-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+  }
+  
+  .galeria-imagenes img {
+    width: 300px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .galeria-imagenes img:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Frase final */
+  .frase-final {
+    text-align: center;
+    font-style: italic;
+    font-size: 1.3em;
+    color: #4a235a;
+    margin: 40px 20px;
+  }
+  

@@ -1,0 +1,76 @@
+/* Fondo suave pastel */
+body {
+    background: linear-gradient(to bottom right, #ffe5b4, #e6ccff);
+  }
+  
+  /* Título principal */
+  .titulo {
+    font-size: 2.2em;
+    background-color: #af7ac5;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 25px;
+    width: fit-content;
+    margin: 30px auto;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+  }
+  
+  /* Contenedor de cuadros */
+  .cuadros-final {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    padding: 30px;
+  }
+  
+  /* Cuadro de imagen */
+  .cuadro-imagen {
+    width: 350px;
+    background-color: #ffffffd0;
+    border-radius: 30px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .cuadro-imagen:hover {
+    transform: scale(1.03);
+  }
+  
+  .cuadro-imagen img {
+    width: 150%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .cuadro-imagen p {
+    padding: 15px;
+    font-weight: 500;
+    color: #5a2d82;
+  }
+  
+  /* Subtítulo */
+  .subtitulo {
+    font-size: 1.8em;
+    color: #fff;
+    background-color: #2980b9;
+    padding: 12px 25px;
+    border-radius: 20px;
+    width: fit-content;
+    margin: 40px auto 20px;
+    box-shadow: 0 5px 12px rgba(0,0,0,0.1);
+  }
+  
+  /* Texto final */
+  .texto-final {
+    text-align: center;
+    font-size: 1.2em;
+    font-style: italic;
+    padding: 0 40px 40px;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #4a235a;
+  }
+  
